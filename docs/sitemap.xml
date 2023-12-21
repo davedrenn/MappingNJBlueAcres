@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/about.html</loc>
-    <lastmod>2023-10-31T00:22:27.715Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/index.html</loc>
+    <lastmod>2023-12-21T19:51:58.023Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/4-folium.html</loc>
-    <lastmod>2023-10-31T00:22:27.122Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/analysis/DataExploration.html</loc>
+    <lastmod>2023-12-21T19:51:57.334Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/1-python-code-blocks.html</loc>
-    <lastmod>2023-12-21T05:26:23.912Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/analysis/ClaimsKmeans.html</loc>
+    <lastmod>2023-12-21T19:51:55.869Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/3-altair-hvplot.html</loc>
-    <lastmod>2023-10-31T00:22:23.012Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/analysis/BlueAcres.html</loc>
+    <lastmod>2023-12-21T19:51:55.176Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/index.html</loc>
-    <lastmod>2023-10-31T00:22:23.294Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/analysis/DataCleaning.html</loc>
+    <lastmod>2023-12-21T19:51:56.433Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/2-static-images.html</loc>
-    <lastmod>2023-10-31T00:22:26.691Z</lastmod>
-  </url>
-  <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/index.html</loc>
-    <lastmod>2023-12-21T05:25:51.091Z</lastmod>
+    <loc>https://davedrenn.github.io/MappingNJBlueAcres/analysis/index.html</loc>
+    <lastmod>2023-12-21T19:51:57.653Z</lastmod>
   </url>
 </urlset>

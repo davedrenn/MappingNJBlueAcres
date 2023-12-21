@@ -6,36 +6,28 @@ project:
 
 website:
   title: "Mapping-NJ-Blue-Acres-Program"
-  site-url: "https://musa-550-fall-2023.github.io/quarto-website-template" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-template 
+  site-url: "https://davedrenn.github.io/MappingNJBlueAcres/" 
+  repo-url: https://github.com/davedrenn/MappingNJBlueAcres 
   repo-actions: [source]
 
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-Nick Hand, 2023"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-Dave Drennan, 2023"
 
   sidebar:
-    logo: "images/course-icon.png"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nickhand.dev
-        text: "Personal Website"
       - icon: github
-        href: https://github.com/MUSA-550-Fall-2023/
-        text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/nicholashand
-        text: "Nick Hand Twitter"         
+        href: https://github.com/davedrenn
+        text: "GitHub - davedrenn"    
 
     style: "docked"
     search: true
     collapse-level: 2
     contents:
       - href: index.qmd
-        text: Welcome
-      - about.qmd
+        text: "Project Overview"
       - section: analysis/index.qmd
         contents:
           - analysis/BlueAcres.ipynb
@@ -46,7 +38,7 @@ website:
 format:
   html:
     highlight-style: solarized
-    theme: cosmo
+    theme: minty
     css: styles.css
     code-copy: true
     code-overflow: wrap

@@ -1,30 +1,18 @@
 ---
-title: "MUSA 550 Final Project Template"
-subtitle: "An example website demonstrating the power of Quarto for sharing analyses on the web"
+title: "Mapping the NJ Blue Acres Program and NFIP Claims"
+subtitle: "Program Overview, Data Exploration, and Clustering Analysis"
 ---
 
-## Welcome!
+## Project Overview
 
-We can create beautiful websites that describe complex technical analyses in Python using [Quarto](https://quarto.org) 
-and deploy them online using [GitHub Pages](https://pages.github.com/). This combination of tools is a really powerful way 
-to create and share your work. This website is a demo that is meant to be used to create your own Quarto website for the 
-final project in MUSA 550. 
+This project was created by Dave Drennan, a graduate student in the University of Pennsylvania's Master of Urban Spatial Analytics Program. Dave is not affiliated with either the State of New Jersey Department of Environmental Protection (DEP) or the Federal Emergency Management Agency (FEMA). This project was created as a final project for two classes - ENVS6611 and MUSA5500 for Fall 2023.  
 
-Quarto is a relatively new tool, but is becoming popular quickly. It's a successor 
-to the Rmarkdown ecosystem that combines functionality into a single tool and also extends its computation power to other
-languages. Most importantly for us, Quarto supports executing Python code, allowing us to convert Jupyter notebooks to HTML and share them online.  
-
-::: {.callout-important}
-This template site, including the layout it uses, is just a suggested place to start! For your final project, you're welcome (and encouraged) to 
-make as many changes as you like to best fit your project.
-:::
+This project is an exploratory analysis of both the [New Jersey Blue Acres Program](https://dep.nj.gov/blueacres/) and FEMA's [National Flood Insurance Program (NFIP) Redacted Claims](https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2) data. Additional demographic data is included from the US Census Bureau. The purpose of this analysis is to examine floodprone areas and where mitigation has happened, either through methods of managed retreat or insurance claims. An overview of the Blue Acres Program is provided on page 1, with pages 2, 3, and 4 analyzing the NFIP data before bringing back in the Blue Acres data. Two clustering algorithms are used - DBSCAN for the Blue Acres data and k-means clustering for the NFIP data. Ultimately, the goal of this project was to fill the gap in data visualization and analysis for the Blue Acres Program and NFIP data in New Jersey and examine the spatial and demographic contexts for both. 
 
 ## Find out more
 
-The code for this repository is hosted on our course's GitHub page: [https://github.com/MUSA-550-Fall-2023/quarto-website-template](https://github.com/MUSA-550-Fall-2023/quarto-website-template).
+The code for this repository is here: [https://github.com/davedrenn/MappingNJBlueAcres](https://github.com/davedrenn/MappingNJBlueAcres).
 
-We covered the basics of getting started with Quarto and GitHub Pages in week 9. Take a look at
-[the slides for lecture 9A](https://musa-550-fall-2023.github.io/content/week-9/lecture-9A.html) to find out more.
 
 
 
