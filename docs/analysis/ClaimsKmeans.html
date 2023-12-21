@@ -206,7 +206,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="nfip-k-means-clustering-and-blue-acres-spatial-cluster-overlay" class="level2">
 <h2 class="anchored" data-anchor-id="nfip-k-means-clustering-and-blue-acres-spatial-cluster-overlay">NFIP K-means Clustering and Blue Acres Spatial Cluster Overlay</h2>
-<p>Using the NJ NFIP single family home claims data in conjunction with US Census Bureau American Community Survey (ACS) data, the k-means clustering analyis is used to identify tracts with similar features and label these clusters based on their similar characteristics.</p>
+<p>Using the NJ NFIP single family home claims data in conjunction with US Census Bureau American Community Survey (ACS) data, a k-means clustering analyis is used to identify tracts with similar features and label these clusters based on their similar characteristics.</p>
 <div class="cell" data-tags="[]" data-execution_count="114">
 <details>
 <summary>Code</summary>
@@ -232,7 +232,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </details>
 </div>
 <p>This data comes from the NFIP redacted claims data set that was filtered for New Jersey, as descibed on the NFIP Data Processing page. New Jersey tracts boundaries are downloaded using the pygris package.</p>
-<p>Because ACS 5-year estimates are used for economic and demographic characteristics and Census tract geography may change every 10 years when a new Census occurs, single family homes claims data is filtered to include claims between 2010 and 2014. This data was chosen due to the high number of claims that occured in time period from both Hurricane Irene and Hurricane Sandy while matching a range for the ACS 5-year estimates.</p>
+<p>Because ACS 5-year estimates are used for economic and demographic characteristics and Census tract geography may change every 10 years when a new Census occurs, single family homes claims data is filtered to include claims between 2010 and 2014. This data was chosen due to the high number of claims that occured in time period from both Hurricane Irene and Hurricane Sandy while matching a range for the ACS 5-year estimates with consistent Census geographies.</p>
 <div class="cell" data-tags="[]" data-execution_count="115">
 <details>
 <summary>Code</summary>
@@ -341,8 +341,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>)].dropna()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>The variables of interest are scaled due to the differences in ranges between variables - because k-means is a distance-based algorithm, scaling the data ensures that the variable with the largest values is not weighted differently than others with smaller ranges of values.</p>
-<p>Additionally, the kneedle algorithm is used to derive the optimal number of clusters based on the hinge point that appears to show dimishing returns for the following value. Based on the plot, this inflection point appears to be five clusters. The k-means analysis is then run on the scaled data with five clusters set as the parameter</p>
+<p>The variables of interest are scaled due to the differences in ranges between variables - because k-means is a distance-based algorithm, scaling the data ensures that the variable with the largest range of values is not weighted differently than others with smaller ranges of values.</p>
+<p>Additionally, the kneedle algorithm is used to derive the optimal number of clusters based on identifying a hinge point that appears to show dimishing returns past that point. Based on the plot, this inflection point appears to be five clusters. The k-means analysis is then run on the scaled data with five clusters set as the parameter</p>
 <div class="cell" data-tags="[]" data-execution_count="118">
 <details>
 <summary>Code</summary>
@@ -396,7 +396,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>cluster_size <span class="op">=</span> NJ_cluster_data.groupby(<span class="st">'label'</span>, as_index<span class="op">=</span><span class="va">False</span>).size()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>The cluster analysis sorted the 1166 Census tracts with NFIP claims during the analysis dates to find optimal clusters based on the included variables. While all clusters averaged at least 21 claims per tract, the cluster associated with label 3 was hit especially hard in this time period.</p>
+<p>The cluster analysis sorted the 1166 Census tracts with NFIP claims during the analysis dates to find optimal clusters based on the included variables. While all clusters averaged at least 21 claims per tract, the cluster associated with label 3 was hit especially hard by claims in this time period.</p>
 <div class="cell" data-tags="[]" data-execution_count="120">
 <details>
 <summary>Code</summary>
@@ -498,7 +498,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co">#cluster_summary_normalized</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>These values are then normalized to a scale of 0 to 1. Normalized results show the relative differences in categories across clusters to support interpretability.</p>
+<p>These values are then normalized on a scale of 0 to 1. Normalized results show the relative differences in categories across clusters to support interpretability.</p>
 <div class="cell" data-tags="[]" data-execution_count="122">
 <details>
 <summary>Code</summary>
@@ -716,7 +716,7 @@ Important
 </details>
 </div>
 <p>The Blue Acres spatial clusters are loaded in, and tracts idenfied in the k-means clustering are joined to identify matches.</p>
-<p>The 10 spatial clusters are relatively evenly distrubuted across the k-means cluster groups</p>
+<p>The 10 spatial clusters are relatively evenly distributed across the k-means cluster groups:</p>
 <ul>
 <li>Two Blue Acres Spatial Clusters in Group A: Wealthy, Populous, Lower Impact Flooding</li>
 <li>Two Blue Acres Spatial Clusters in Group B: High Impact Flooding</li>

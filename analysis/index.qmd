@@ -5,12 +5,12 @@ Data analysis for this project was conducted using Python through Jupyter notebo
 This project contains the following analysis: 
 
 * Exploratory mapping - plotting the Blue Acres parcels to visualize locations
-* Data visualization - mapping and graphing data based on different parameters 
-* clustering using both k-means and DBSCAN
+* Data visualization - mapping and graphing Blue Acres and NFIP data to visualize trends and relationships 
+* Clustering analysis - k-means and DBSCAN
     + K-means clusters points through an algorithm that attempts to find the centroids of groups of data - the number of clusters is determined by the researcher. That centroid represents the mean value of a cluster and the data can be multidimensional based on the number of variables.
-        - This method is used for NFIP data - that data was anonymized by FEMA to protect personally identifying information, and is at a simplified geography that makes it unsuitable for DBSCAN
-    + DBSCAN clusters based on a point's relationship to other points - the number of clusters is determined by distance and group parameters set by the researcher
-        - This method is uied for Blue Acres data to spatially cluster individual properties
+        - This method is used for NFIP data - that data was anonymized by FEMA to protect personally identifying information, and has simplified latitude and longitude coordinates that makes it unsuitable for DBSCAN
+    + DBSCAN clusters points based on an individual point's relationship to other points - the number of clusters is determined by distance and grouping parameters set by the researcher
+        - This method is used for Blue Acres data to spatially cluster individual parcels
 
 Pages are meant to be read in the order they appear.
 

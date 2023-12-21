@@ -5,7 +5,7 @@ subtitle: "Program Overview, Data Exploration, and Clustering Analysis"
 
 ## Project Overview
 
-This project was created by Dave Drennan, a graduate student in the University of Pennsylvania's Master of Urban Spatial Analytics Program. Dave is not affiliated with either the State of New Jersey Department of Environmental Protection (DEP) or the Federal Emergency Management Agency (FEMA). This project was created for educational purposes as a final project for two classes - ENVS6611 and MUSA5500 for Fall 2023.  
+This project was created by Dave Drennan, a graduate student in the University of Pennsylvania's Master of Urban Spatial Analytics Program. Dave is not affiliated with either the State of New Jersey Department of Environmental Protection (DEP) or the Federal Emergency Management Agency (FEMA). This project was created for educational purposes as a final project for two Fall 2023 classes - ENVS6611 and MUSA5500.  
 
 This project is an exploratory analysis of both the [New Jersey Blue Acres Program](https://dep.nj.gov/blueacres/) and FEMA's [National Flood Insurance Program (NFIP) Redacted Claims](https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2) data. Additional demographic data is included from the US Census Bureau. The purpose of this analysis is to examine floodprone areas and where mitigation has happened, either through methods of managed retreat or insurance claims. 
 
