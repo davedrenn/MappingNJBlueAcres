@@ -5,7 +5,7 @@ project:
     port: 3333
 
 website:
-  title: "Mapping-NJ-Blue-Acres-Program"
+  title: "Mapping NJ Blue Acres Program"
   site-url: "https://davedrenn.github.io/MappingNJBlueAcres/" 
   repo-url: https://github.com/davedrenn/MappingNJBlueAcres 
   repo-actions: [source]

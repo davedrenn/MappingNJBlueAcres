@@ -1,11 +1,6 @@
 # Analysis
 
-This section includes examples of technical analysis done using Jupyter notebooks.
-Each sub-section highlights different types of analyses and visualizations.
-In particular, it highlights that we can easily publish interactive visualizations
-produced with packages such as hvPlot, altair, or Folium, without losing
-any of the interactive features. 
-
-On this page, you might want to share more introductory or background information about 
-the analyses to help guide the reader. 
+Data analysis for this project was conducted using Python through Jupyter notebooks.
+Analysis includes exploratory mapping, comparison plots, and clustering using both k-means and DBSCAN.
+Pages are meant to be read in the order they appear.
 
